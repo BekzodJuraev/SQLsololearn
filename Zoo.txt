@@ -1,0 +1,4 @@
+INSERT INTO Animals 
+VALUES ('Slim','Giraffe',1);
+
+SELECT name,type,country FROM Animals, Countries WHERE country_id = id ORDER BY country
